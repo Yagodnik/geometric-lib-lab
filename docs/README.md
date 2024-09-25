@@ -10,44 +10,60 @@
 ## Квардат
 ```python
 area(a: float) -> float
+
+area(1) # = 1
 ```
 Возвращает площадь квадрата со стороной a
 
 ```python
 perimeter(a: float) -> float
+
+perimeter(1) # = 4
 ```
 Возвращает периметр квадрата со стороной a
 
 ## Прямоугольник
 ```python
 area(a: float, b: float) -> float
+
+area(2.5, 3) # = 7.5
 ```
 Возвращает площадь прямоугольника со сторонами a и b
 
 ```python
 perimeter(a: float, b: float) -> float
+
+perimeter(2.5, 3) # = 11.0
 ```
 Возвращает периметр прямоугольника со сторонами a и b
 
 ## Круг
 ```python
 area(r: float) -> float
+
+area(2.5) # = 19.634954084936208
 ```
 Возвращает площадь круга с радиусом r
 
 ```python
 perimeter(r: float) -> float
+
+perimeter(2.5) # = 15.707963267948966
 ```
 Возвращает длину дуги круга с радиусом r
 
 ## Треугольник
 ```python
 area(a: float, h: float) -> float
+
+area(2.5, 3) # = 3.75
 ```
 Возвращает площадь треугольника 
 
 ```python
 perimeter(a: float, b: float, c: float) -> float
+
+perimeter(5, 4, 3) # = 12
 ```
 Возвращает периметр треугольника со сторонами a, b и c
 
