@@ -24,3 +24,20 @@ def perimeter(a, b, c):
             (float) Периметр треугольника треугольника
     '''
     return a + b + c 
+
+
+import unittest
+
+
+class TriangleTestCase(unittest.TestCase):
+    def test_zero_mul(self):
+        res = area(0, 10)
+        self.assertEqual(res, 0)
+
+    def test_area(self):
+        res = area(2.2, 3.4)
+        self.assertAlmostEqual(res, 3.74)
+
+    def test_perimeter(self):
+        res = perimeter(7.2, 5.9, 1.2)
+        self.assertAlmostEqual(res, 14.3)           
