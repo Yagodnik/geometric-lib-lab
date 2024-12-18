@@ -16,7 +16,7 @@ def area(a, b):
     if b < 0:
         raise ValueError("Negative b side")
 
-    return a * b 
+    return a * b * 2
 
 def perimeter(a, b): 
     '''
